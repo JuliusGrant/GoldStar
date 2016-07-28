@@ -1,0 +1,182 @@
+textarea {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+
+label
+{
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    color: gold;
+    text-align: inherit;
+}
+
+/* Centres the form within the page */
+form {
+    text-align: center;
+    margin:0 auto;
+    width:60%;
+    height: 70%;
+    padding: 15px 110px 30px;
+    background-color: white;
+    border-radius: 30px;
+    border: 10px #012948 solid;
+    box-shadow: 0px 0px 10px black;
+}
+
+.form {
+  padding-top: 150px;
+  width: 100%;
+}
+
+
+.goldstar {
+  max-width: 85px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+
+input, textarea {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.03) inset;
+  margin-bottom: 15px;
+}
+
+
+input:focus,
+textarea:focus {
+  transition: background-color 350ms ease-out;
+  background-color: #e3d484;
+}
+
+textarea {
+  margin-top: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #e3d484;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #012948;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 0px;
+  border: none;
+}
+
+legend {
+  width: 100%;
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-bottom: 10px;;
+  border-top: 5px solid #5b5b70;
+  padding-top: 30px;
+}
+
+
+/* Styles the text area boxes (message field) */
+textarea
+{
+	height:150px;
+	background-color: #efefef;
+}
+
+/*
+██████  ███████ ███████ ██████   ██████  ███    ██ ███████ ██ ██    ██ ███████
+██   ██ ██      ██      ██   ██ ██    ██ ████   ██ ██      ██ ██    ██ ██
+██████  █████   ███████ ██████  ██    ██ ██ ██  ██ ███████ ██ ██    ██ █████
+██   ██ ██           ██ ██      ██    ██ ██  ██ ██      ██ ██  ██  ██  ██
+██   ██ ███████ ███████ ██       ██████  ██   ████ ███████ ██   ████   ███████
+*/
+
+
+@media screen and (min-width: 211px) {
+  form {
+    width: 80%;
+    margin: 0px auto;
+    padding: 0px 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+
+  textarea {
+    width: 100%;
+  }
+
+  button {
+      width: 100%;
+  }
+}
+
+/*
+██████  ███████ ███████ ██████   ██████  ███    ██ ███████ ██ ██    ██ ███████
+██   ██ ██      ██      ██   ██ ██    ██ ████   ██ ██      ██ ██    ██ ██
+██████  █████   ███████ ██████  ██    ██ ██ ██  ██ ███████ ██ ██    ██ █████
+██   ██ ██           ██ ██      ██    ██ ██  ██ ██      ██ ██  ██  ██  ██
+██   ██ ███████ ███████ ██       ██████  ██   ████ ███████ ██   ████   ███████
+*/
+
+
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
+  }
+
+  label {
+  display: block;
+  width: 100%;
+  text-align: left;
+  }
+
+
+  .newsletter label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+
+  textarea {
+    max-width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+
+
+}

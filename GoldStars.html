@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training</title>
+    <link rel="stylesheet" href="css/styles2.css"/>
+    <link type="text/css" rel="stylesheet" href="css/contact.css"/>
+  </head>
+
+  <body>
+
+    <!--#########################################################################
+    ███    ██  █████  ██    ██
+    ████   ██ ██   ██ ██    ██
+    ██ ██  ██ ███████ ██    ██
+    ██  ██ ██ ██   ██  ██  ██
+    ██   ████ ██   ██   ████
+    ##########################################################################-->
+
+      <button id="i-nav" onclick="myFunction()" class="dropbtn">MENU</button>
+
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="editor.html">Editor | Producer</a></li>
+          <li><a href="admin.html">Administrative</a></li>
+          <li><a href="mastercontrol.html">Master Control</a></li>
+          <li><a href="studio.html">Studio</a></li>
+          <li><a href="classroom.html">Classroom Recording</a></li>
+          <li><a href="training.html">Training</a></li>
+          <li>
+          <div class="dropdown">
+           <button onclick="myFunction2()" class="dropbtn">Dropdown</button>
+           <div id="myDropdown2" class="dropdown-content">
+             <a href="goldstars.html">Gold Stars</a>
+             <a href="#">Manuals</a>
+             <a href="http://192.168.1.202:32400/web/index.html">PLEX Media Server</a>
+             <a href="phonebook.html">JTN Phone Book</a>
+            </div>
+          </div>
+          </li>
+        </ul>
+      </nav>
+
+
+
+
+
+      <!--#########################################################################
+       ██████  ██████  ███    ██ ████████ ███████ ███    ██ ████████
+      ██      ██    ██ ████   ██    ██    ██      ████   ██    ██
+      ██      ██    ██ ██ ██  ██    ██    █████   ██ ██  ██    ██
+      ██      ██    ██ ██  ██ ██    ██    ██      ██  ██ ██    ██
+       ██████  ██████  ██   ████    ██    ███████ ██   ████    ██
+      ##########################################################################-->
+
+    <div class="form">
+
+      <form name="htmlform" method="post" action="documents/GoldStars/goldstar_send2.php">
+
+        <img src="documents/GoldStars/GoldStar.png" alt="" class="goldstar"/>
+
+        <fieldset class="contact">
+
+          <label for="Sender_name"></label><input type="text" name="Sender_name" maxlength="40" placeholder="Your Name" required>
+
+          <label for="email"></label>
+          <input type="text" name="email" maxlength="80"  placeholder="Your Email Address" required>
+
+          <label for="Receiver_name"></label><input type="text" name="Receiver_name" maxlength="50" placeholder="Their Name" required>
+
+          <label for="comments" class="light"></label>
+          <textarea  name="comments" maxlength="250" placeholder="Praise... (250 character limit)"></textarea>
+        </fieldset>
+
+
+        <button class="formbtn" ntype="button" type="submit" value="Submit">Submit</button>
+
+      </form>
+
+    </div>
+
+
+
+
+    <footer>
+
+      <div class="footer clearfix">
+        <p>Copyright (c) 2016 Justice Television Network. All Rights Reserved.</p>
+        <p><a href="#top">Back To Top</a></p>
+      </div>
+
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/secondary.js" charset="utf-8"></script>
+    <script src="js/dist/js/lightgallery.min.js"></script>
+  </body>
+</html>
